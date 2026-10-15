@@ -1,0 +1,354 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:4b4c4603-d997-5cd5-8b50-93632120efd4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:42:57Z",
+    "component": {
+      "type": "application",
+      "name": "SPARO",
+      "version": "ca06251a4916",
+      "bom-ref": "pkg:generic/anticloud/SPARO@ca06251a4916",
+      "purl": "pkg:generic/anticloud/SPARO@ca06251a4916",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "ca06251a491699b020e0529903ba8a726ff135e2"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/TikTok/sparo"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@rushstack/node-core-library",
+      "version": "~3.64.2",
+      "purl": "pkg:npm/@rushstack/node-core-library@~3.64.2",
+      "bom-ref": "npm/@rushstack/node-core-library@~3.64.2"
+    },
+    {
+      "type": "library",
+      "name": "sparo-lib",
+      "version": "workspace:*",
+      "purl": "pkg:npm/sparo-lib@workspace:*",
+      "bom-ref": "npm/sparo-lib@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "@rushstack/heft",
+      "version": "0.64.3",
+      "purl": "pkg:npm/@rushstack/heft@0.64.3",
+      "bom-ref": "npm/@rushstack/heft@0.64.3"
+    },
+    {
+      "type": "library",
+      "name": "@rushstack/heft-node-rig",
+      "version": "2.4.5",
+      "purl": "pkg:npm/@rushstack/heft-node-rig@2.4.5",
+      "bom-ref": "npm/@rushstack/heft-node-rig@2.4.5"
+    },
+    {
+      "type": "library",
+      "name": "@types/heft-jest",
+      "version": "1.0.6",
+      "purl": "pkg:npm/@types/heft-jest@1.0.6",
+      "bom-ref": "npm/@types/heft-jest@1.0.6"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "20.11.16",
+      "purl": "pkg:npm/@types/node@20.11.16",
+      "bom-ref": "npm/@types/node@20.11.16"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "8.56.0",
+      "purl": "pkg:npm/eslint@8.56.0",
+      "bom-ref": "npm/eslint@8.56.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "~5.3.3",
+      "purl": "pkg:npm/typescript@~5.3.3",
+      "bom-ref": "npm/typescript@~5.3.3"
+    },
+    {
+      "type": "library",
+      "name": "@rushstack/terminal",
+      "version": "~0.8.1",
+      "purl": "pkg:npm/@rushstack/terminal@~0.8.1",
+      "bom-ref": "npm/@rushstack/terminal@~0.8.1"
+    },
+    {
+      "type": "library",
+      "name": "git-repo-info",
+      "version": "~2.1.1",
+      "purl": "pkg:npm/git-repo-info@~2.1.1",
+      "bom-ref": "npm/git-repo-info@~2.1.1"
+    },
+    {
+      "type": "library",
+      "name": "inversify",
+      "version": "~6.0.2",
+      "purl": "pkg:npm/inversify@~6.0.2",
+      "bom-ref": "npm/inversify@~6.0.2"
+    },
+    {
+      "type": "library",
+      "name": "npm-package-arg",
+      "version": "~6.1.0",
+      "purl": "pkg:npm/npm-package-arg@~6.1.0",
+      "bom-ref": "npm/npm-package-arg@~6.1.0"
+    },
+    {
+      "type": "library",
+      "name": "reflect-metadata",
+      "version": "~0.2.1",
+      "purl": "pkg:npm/reflect-metadata@~0.2.1",
+      "bom-ref": "npm/reflect-metadata@~0.2.1"
+    },
+    {
+      "type": "library",
+      "name": "semver",
+      "version": "~7.6.0",
+      "purl": "pkg:npm/semver@~7.6.0",
+      "bom-ref": "npm/semver@~7.6.0"
+    },
+    {
+      "type": "library",
+      "name": "update-notifier",
+      "version": "~5.1.0",
+      "purl": "pkg:npm/update-notifier@~5.1.0",
+      "bom-ref": "npm/update-notifier@~5.1.0"
+    },
+    {
+      "type": "library",
+      "name": "yargs",
+      "version": "~17.7.2",
+      "purl": "pkg:npm/yargs@~17.7.2",
+      "bom-ref": "npm/yargs@~17.7.2"
+    },
+    {
+      "type": "library",
+      "name": "@types/npm-package-arg",
+      "version": "6.1.0",
+      "purl": "pkg:npm/@types/npm-package-arg@6.1.0",
+      "bom-ref": "npm/@types/npm-package-arg@6.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/semver",
+      "version": "7.5.7",
+      "purl": "pkg:npm/@types/semver@7.5.7",
+      "bom-ref": "npm/@types/semver@7.5.7"
+    },
+    {
+      "type": "library",
+      "name": "@types/update-notifier",
+      "version": "6.0.8",
+      "purl": "pkg:npm/@types/update-notifier@6.0.8",
+      "bom-ref": "npm/@types/update-notifier@6.0.8"
+    },
+    {
+      "type": "library",
+      "name": "@types/yargs",
+      "version": "17.0.32",
+      "purl": "pkg:npm/@types/yargs@17.0.32",
+      "bom-ref": "npm/@types/yargs@17.0.32"
+    },
+    {
+      "type": "library",
+      "name": "@algolia/client-search",
+      "version": "^4.22.1",
+      "purl": "pkg:npm/@algolia/client-search@^4.22.1",
+      "bom-ref": "npm/@algolia/client-search@^4.22.1"
+    },
+    {
+      "type": "library",
+      "name": "@docusaurus/core",
+      "version": "3.1.1",
+      "purl": "pkg:npm/@docusaurus/core@3.1.1",
+      "bom-ref": "npm/@docusaurus/core@3.1.1"
+    },
+    {
+      "type": "library",
+      "name": "@docusaurus/preset-classic",
+      "version": "3.1.1",
+      "purl": "pkg:npm/@docusaurus/preset-classic@3.1.1",
+      "bom-ref": "npm/@docusaurus/preset-classic@3.1.1"
+    },
+    {
+      "type": "library",
+      "name": "@docusaurus/theme-common",
+      "version": "3.1.1",
+      "purl": "pkg:npm/@docusaurus/theme-common@3.1.1",
+      "bom-ref": "npm/@docusaurus/theme-common@3.1.1"
+    },
+    {
+      "type": "library",
+      "name": "@mdx-js/react",
+      "version": "^3.0.1",
+      "purl": "pkg:npm/@mdx-js/react@^3.0.1",
+      "bom-ref": "npm/@mdx-js/react@^3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "clsx",
+      "version": "^2.1.0",
+      "purl": "pkg:npm/clsx@^2.1.0",
+      "bom-ref": "npm/clsx@^2.1.0"
+    },
+    {
+      "type": "library",
+      "name": "prism-react-renderer",
+      "version": "^2.3.1",
+      "purl": "pkg:npm/prism-react-renderer@^2.3.1",
+      "bom-ref": "npm/prism-react-renderer@^2.3.1"
+    },
+    {
+      "type": "library",
+      "name": "docusaurus-lunr-search",
+      "version": "^3.3.2",
+      "purl": "pkg:npm/docusaurus-lunr-search@^3.3.2",
+      "bom-ref": "npm/docusaurus-lunr-search@^3.3.2"
+    },
+    {
+      "type": "library",
+      "name": "lunr",
+      "version": "^2.3.9",
+      "purl": "pkg:npm/lunr@^2.3.9",
+      "bom-ref": "npm/lunr@^2.3.9"
+    },
+    {
+      "type": "library",
+      "name": "lunr-languages",
+      "version": "^1.14.0",
+      "purl": "pkg:npm/lunr-languages@^1.14.0",
+      "bom-ref": "npm/lunr-languages@^1.14.0"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "^18.2.0",
+      "purl": "pkg:npm/react@^18.2.0",
+      "bom-ref": "npm/react@^18.2.0"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "^18.2.0",
+      "purl": "pkg:npm/react-dom@^18.2.0",
+      "bom-ref": "npm/react-dom@^18.2.0"
+    },
+    {
+      "type": "library",
+      "name": "search-insights",
+      "version": "^2.13.0",
+      "purl": "pkg:npm/search-insights@^2.13.0",
+      "bom-ref": "npm/search-insights@^2.13.0"
+    },
+    {
+      "type": "library",
+      "name": "@docusaurus/module-type-aliases",
+      "version": "3.1.1",
+      "purl": "pkg:npm/@docusaurus/module-type-aliases@3.1.1",
+      "bom-ref": "npm/@docusaurus/module-type-aliases@3.1.1"
+    },
+    {
+      "type": "library",
+      "name": "@docusaurus/types",
+      "version": "3.1.1",
+      "purl": "pkg:npm/@docusaurus/types@3.1.1",
+      "bom-ref": "npm/@docusaurus/types@3.1.1"
+    },
+    {
+      "type": "library",
+      "name": "@node-rs/jieba",
+      "version": "^1.10.3",
+      "purl": "pkg:npm/@node-rs/jieba@^1.10.3",
+      "bom-ref": "npm/@node-rs/jieba@^1.10.3"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "~18.2.59",
+      "purl": "pkg:npm/@types/react@~18.2.59",
+      "bom-ref": "npm/@types/react@~18.2.59"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "~18.2.19",
+      "purl": "pkg:npm/@types/react-dom@~18.2.19",
+      "bom-ref": "npm/@types/react-dom@~18.2.19"
+    },
+    {
+      "type": "library",
+      "name": "prismjs",
+      "version": "~1.29.0",
+      "purl": "pkg:npm/prismjs@~1.29.0",
+      "bom-ref": "npm/prismjs@~1.29.0"
+    },
+    {
+      "type": "library",
+      "name": "build-test-utilities",
+      "version": "workspace:*",
+      "purl": "pkg:npm/build-test-utilities@workspace:*",
+      "bom-ref": "npm/build-test-utilities@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "jest-diff",
+      "version": "~29.7.0",
+      "purl": "pkg:npm/jest-diff@~29.7.0",
+      "bom-ref": "npm/jest-diff@~29.7.0"
+    },
+    {
+      "type": "library",
+      "name": "sparo",
+      "version": "workspace:*",
+      "purl": "pkg:npm/sparo@workspace:*",
+      "bom-ref": "npm/sparo@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "@rushstack/rush-sdk",
+      "version": "^5.140.0",
+      "purl": "pkg:npm/@rushstack/rush-sdk@^5.140.0",
+      "bom-ref": "npm/@rushstack/rush-sdk@^5.140.0"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "3.2.4",
+      "purl": "pkg:npm/prettier@3.2.4",
+      "bom-ref": "npm/prettier@3.2.4"
+    },
+    {
+      "type": "library",
+      "name": "pretty-quick",
+      "version": "4.0.0",
+      "purl": "pkg:npm/pretty-quick@4.0.0",
+      "bom-ref": "npm/pretty-quick@4.0.0"
+    }
+  ]
+}
